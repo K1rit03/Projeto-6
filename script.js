@@ -1,3 +1,23 @@
+// VALIDAÇÃO DE LOGIN
+
+function validar(){
+
+
+    //declarando as variaveis
+    let usuario =document.getElementById("usuario").value;
+    let senha =document.getElementById("senha").value;
+    
+    if(usuario ==="admin" && senha ==="12345"){
+        window.open("dashboard.html")
+    }else{
+        alert("usuario e senha inválidos")
+    }
+}
+
+
+
+
+
 // criando um slideshow automático
 
 // declarando as variaveis
